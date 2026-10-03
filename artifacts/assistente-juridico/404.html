@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
+    <title>SK Jurídico — Assistente IA</title>
+    <!-- Prevent white/black flash on PWA launch and file picker focus/resume -->
+    <style>
+      html, body, #root { background-color: #ffffff; margin: 0; padding: 0; }
+      @media (prefers-color-scheme: dark) { html, body, #root { background-color: #09090b; } }
+    </style>
+    <meta name="description" content="Assistente jurídico com IA para advogados brasileiros. Gera petições, minutas e documentos com formatação ABNT automática." />
+    <meta name="robots" content="index, follow" />
+<!-- Open Graph -->
+    <meta property="og:title" content="SK Jurídico — Assistente Jurídico IA" />
+    <meta property="og:description" content="Gere petições, minutas e documentos jurídicos com IA em segundos. Formatação ABNT automática." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/opengraph.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SK Jurídico — Assistente Jurídico IA" />
+    <meta name="twitter:description" content="Gere petições, minutas e documentos jurídicos com IA." />
+
+    <!-- PWA -->
+<!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- PWA:inicio (gerado pelo Mini SK — pode refazer no painel 📱 PWA) -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1e3a5f">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="SK Jurídico — Assistente IA">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <script>
+    if ('serviceWorker' in navigator && location.protocol.indexOf('http') === 0) {
+      addEventListener('load', function () { navigator.serviceWorker.register('service-worker.js').catch(function (e) { console.warn('Service worker:', e); }); });
+    }
+  </script>
+  <!-- PWA:fim -->
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    </body>
+</html>

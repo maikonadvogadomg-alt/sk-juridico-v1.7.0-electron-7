@@ -1,0 +1,18 @@
+{
+  "titulo": "sk-juridico-v1.7.0-electron (7)",
+  "arquivo": "index.html",
+  "itens": [
+    {
+      "path": "artifacts/assistente-juridico/index.html",
+      "nome": "SK Jurídico — Assistente IA",
+      "desc": "",
+      "on": true,
+      "icone": "artifacts/assistente-juridico/icons/icon.svg",
+      "emoji": ""
+    }
+  ],
+  "sub": "",
+  "logo": "",
+  "tema": "escuro",
+  "links": []
+}
